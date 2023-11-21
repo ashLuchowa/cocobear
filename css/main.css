@@ -314,6 +314,15 @@ body {
   justify-content: center;
 }
 
+.contact-background {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  align-items: center;
+  border: 4px solid #04BF55;
+  border-radius: 10px;
+}
+
 /*-------------------- FOOTER --------------------*/
 footer {
   color: #fff;
