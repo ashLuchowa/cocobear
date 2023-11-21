@@ -1,0 +1,36 @@
+/* store, about, contact */
+.custom-header {
+    margin-top: 0px;
+}
+
+.main-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-secondary-dark;
+    color: $color-white;
+    height: 100px;
+    h2 {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+}
+
+#main-hire {
+    div {
+        div {
+            margin: 0px 20px 0px 0px;
+        }
+    }
+    img {
+        margin-bottom: 15px;
+    }
+}
+
+.hire-1 {
+    margin-bottom: 40px;
+}
+
+.hire-text {
+    margin-bottom: 30px;
+}

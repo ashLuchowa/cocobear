@@ -1,0 +1,48 @@
+//-------------------- VARIABLES --------------------//
+@import 'variables.scss';
+/*-------------------- GENERAL --------------------*/
+body {
+    background-color: $color-secondary !important;
+}
+
+@font-face {
+    font-family: 'Dream Avenue';
+    src: url(/fonts/dream-avenue.ttf);
+}
+/*-------------------- HEADER --------------------*/
+@import 'header';
+/*-------------------- CAROUSEL --------------------*/
+@import 'carousel';
+/*-------------------- MAIN CONTENT --------------------*/
+@import 'main-content';
+/*-------------------- STORE --------------------*/
+@import 'gallery';
+/*-------------------- ABOUT --------------------*/
+@import 'about';
+/*-------------------- CONTACT --------------------*/
+@import 'contact';
+/*-------------------- FOOTER --------------------*/
+@import 'footer';
+/*-------------------- MIX --------------------*/
+@import 'mix';
+/*-------------------- MEDIA QUERIES --------------------*/
+@media (max-width: 992px) {
+    .contact-image img {
+        height: 60vh;
+        width: 100vw;
+        object-fit: cover;
+    }
+
+    #main-hire {
+        div {
+            div {
+                margin: 0px 0px 0px 0px;
+            }
+        }
+        text-align: center;
+    }
+    
+    .hire-text {
+        width: 100%;
+    }
+}

@@ -1,0 +1,76 @@
+.main {
+    .col {
+        height: 200px;
+        position: relative;
+    }
+
+    button {
+        width: 100px;
+        height: 40px;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        top: 60%;
+        text-align: center;
+    }
+}
+
+.main-content {
+    margin-top: 70px;
+}
+
+// Services
+#main-service, #main-testimonial {
+    img, iframe {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.feature-btn {
+    background-color: $color-white !important;
+}
+
+#more-product-btn {
+    width: auto;
+    margin-top: 30px;
+    padding-top: 10px;
+}
+
+#service-btn {
+    width: auto;
+    padding: 10px 25px;
+}
+
+// Hire Us
+#main-hire {
+    img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 300px !important;
+        
+    }
+    .social-icons {
+        a {
+            i {
+                color: black;
+            }
+        }
+    }
+}
+
+// Testimonials
+#main-testimonial {
+    img {
+        margin-bottom: 20px;
+    }
+}
+
+.main-hire-image {
+    display: flex !important;
+    justify-content: center !important;
+}

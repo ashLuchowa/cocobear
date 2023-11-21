@@ -1,0 +1,48 @@
+#main-form {
+    .col {
+        padding: 10px;
+    }
+    input, textarea {
+        background-color: #FFF8E3;
+        border: 4px solid #369ffc !important;
+    }
+    button {
+        background-color: $color-secondary-dark;
+        width: 150px !important;
+        height: 50px;
+        font-size: 20px;
+    }
+}
+
+.map-container {
+    overflow: hidden;
+    position: relative;
+    height: 0;
+}
+
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#contact-message {
+    height: 100px;
+}
+
+.contact-image {
+    img {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
