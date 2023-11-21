@@ -117,7 +117,7 @@ body {
   border: 0 !important;
 }
 
-#carousel-btn {
+.carousel-btn {
   background-color: #ca119c;
   font-weight: bold;
   color: white;
