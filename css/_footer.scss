@@ -24,6 +24,11 @@ footer {
 }
 
 .social-icons {
+    ul {
+        li {
+            list-style-type: none;
+        }
+    }
     a {
         text-decoration: none;
         color: rgb(255, 255, 255);
