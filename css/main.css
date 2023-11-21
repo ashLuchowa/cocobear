@@ -23,7 +23,6 @@ body {
 .navbar {
   align-items: center;
   background-color: #0476D9 !important;
-  height: 7vh;
 }
 
 .text-color {
@@ -118,10 +117,6 @@ body {
   text-decoration: none;
   padding: 5px 20px 7px 20px;
   border-radius: 5px;
-}
-
-.carousel-inner {
-  height: 93vh;
 }
 
 .carousel-indicators {
