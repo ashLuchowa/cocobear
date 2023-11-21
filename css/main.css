@@ -21,7 +21,9 @@ body {
 }
 
 .navbar {
+  align-items: center;
   background-color: #0476D9 !important;
+  height: 7vh;
 }
 
 .text-color {
