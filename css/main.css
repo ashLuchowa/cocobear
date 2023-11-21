@@ -49,6 +49,12 @@ body {
   font-size: 1.5rem !important;
 }
 
+#book-btn {
+  text-align: center;
+  background-color: #ca119c;
+  border-radius: 10px;
+}
+
 /* Back to top */
 .back-top {
   display: flex;
@@ -112,7 +118,8 @@ body {
 }
 
 #carousel-btn {
-  background-color: #0476D9;
+  background-color: #ca119c;
+  font-weight: bold;
   color: white;
   text-decoration: none;
   padding: 5px 20px 7px 20px;
