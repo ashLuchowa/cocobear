@@ -414,4 +414,11 @@ footer .container .footer-links div ul li a {
   .hire-text {
     width: 100%;
   }
+}
+@media (max-width: 575px) {
+  .contact-background {
+    height: auto;
+    padding: 20px 0px;
+    margin-bottom: 15px;
+  }
 }/*# sourceMappingURL=main.css.map */
